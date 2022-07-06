@@ -1,7 +1,7 @@
 const answer = (data, n) => {
     if (typeof (data) === 'object') {
         if (data.length !== undefined) {
-            if (typeof (n) === 'number' && n > 0) {
+            if (typeof (n) === 'number' && n >= 0) {
                 const result = [];
                 for (const d of data) {
                     let count = 0;
